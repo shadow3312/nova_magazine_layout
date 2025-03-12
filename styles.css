@@ -1,0 +1,40 @@
+/* GLOBAL STYLING */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.magazine-cover {
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "feature-article feature-article cover-image"
+    "first-article second-article cover-image";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr;
+  gap: 10px;
+  width: 80vw;
+  max-width: 900px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  grid-area: title;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
