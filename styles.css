@@ -38,3 +38,36 @@ body {
   padding: 20px;
   border-radius: 5px;
 }
+
+.feature-article {
+  grid-area: feature-article;
+  background: #ffcc80;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.cover-image {
+  grid-area: cover-image;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.first-article,
+.second-article {
+  padding: 15px;
+  background: #90caf9;
+  border-radius: 5px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0px;
+  font-weight: bold;
+}
