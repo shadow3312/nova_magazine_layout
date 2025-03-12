@@ -17,7 +17,7 @@ body {
   grid-template-areas:
     "title title title"
     "feature-article feature-article cover-image"
-    "first-article second-article cover-image";
+    "small-article1 small-article2 cover-image";
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto 1fr 1fr;
   gap: 10px;
@@ -59,8 +59,8 @@ body {
   border-radius: 5px;
 }
 
-.first-article,
-.second-article {
+.small-article1,
+.small-article2 {
   padding: 15px;
   background: #90caf9;
   border-radius: 5px;
